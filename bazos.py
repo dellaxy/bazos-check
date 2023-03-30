@@ -8,8 +8,8 @@ kategoria = "https://mobil.bazos.sk"
 cat = kategoria + \
     "/{0}?hledat={1}&hlokalita=&humkreis=&cenaod=100&cenado={2}&order="
 
-search = ["iphone x", "iphone xs", "iphone xr", "iphone 11"]
-price_filter = [200, 200, 200, 350]
+search = ["Playstation 5"]
+price_filter = [550]
 
 stock = []
 stocknew = []
@@ -116,4 +116,4 @@ def nacitanie():
 async def clear(l):
     await channel.purge(limit=l, check=lambda msg: not msg.pinned)
 
-client.run('ODQ2MDI4NTU5NTM2NzUwNTk2.YKpjfw.ikeyq5WPqOj8yahffiZn-wLKlIM')
+client.run(BOT_TOKEN)
