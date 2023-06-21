@@ -3,7 +3,7 @@ import asyncio
 from bs4 import BeautifulSoup
 from discord.ext import commands
 
-kategoria = "https://mobil.bazos.sk"
+kategoria = "https://pc.bazos.sk"
 
 cat = kategoria + \
     "/{0}?hledat={1}&hlokalita=&humkreis=&cenaod=100&cenado={2}&order="
